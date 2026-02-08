@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rajat Rai — Aspiring Machine Learning Engineer | B.Tech KIET | DSA, Python, TensorFlow, Data & AI">
+  <title>Rajat Rai | Aspiring Machine Learning Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- Ambient background: data/grid aesthetic for ML feel -->
+  <div class="bg-ambient" aria-hidden="true">
+    <div class="bg-grid"></div>
+    <div class="bg-glow bg-glow-1"></div>
+    <div class="bg-glow bg-glow-2"></div>
+  </div>
+
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <span class="logo-text">Rajat Rai</span>
+        <span class="logo-badge">ML</span>
+      </a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#dsa">Problem Solving</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero: Name, title, intro, CTAs -->
+    <section id="hero" class="hero">
+      <div class="hero-inner">
+        <p class="hero-label" aria-hidden="true">&lt;engineer&gt;</p>
+        <h1 class="hero-name">Rajat Rai</h1>
+        <p class="hero-title" id="hero-title">Aspiring Machine Learning Engineer</p>
+        <p class="hero-intro">
+          Turning data into decisions. Building models that learn, scale, and solve real problems—from quick-commerce impact analysis to AI-powered summarization.
+        </p>
+        <div class="hero-ctas">
+          <a href="#contact" class="btn btn-primary">Resume</a>
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">GitHub</a>
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="btn btn-outline">LinkedIn</a>
+        </div>
+        <div class="hero-visual" aria-hidden="true">
+          <div class="neural-dots"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About: Engineering mindset, ML/data interest, learning-by-building -->
+    <section id="about" class="section about">
+      <div class="section-inner">
+        <h2 class="section-title">
+          <span class="section-tag">01</span>
+          About Me
+        </h2>
+        <div class="about-grid">
+          <article class="about-card">
+            <div class="about-icon" aria-hidden="true">⚙</div>
+            <h3>Engineering mindset</h3>
+            <p>I approach problems with structure: break them down, model them, then build. Whether it's a pipeline or a prediction task, I focus on clarity and scalability.</p>
+          </article>
+          <article class="about-card">
+            <div class="about-icon" aria-hidden="true">📊</div>
+            <h3>Data & ML focus</h3>
+            <p>I'm drawn to machine learning, data analysis, and systems that learn from data. From TensorFlow to SQL and Power BI, I connect data to actionable insights.</p>
+          </article>
+          <article class="about-card">
+            <div class="about-icon" aria-hidden="true">🔧</div>
+            <h3>Learning by building</h3>
+            <p>I learn best by doing—building projects, solving problems on the plate, and iterating. Consistency in DSA and hands-on projects keeps me sharp.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills: Programming | ML & Data | Tools & Platforms -->
+    <section id="skills" class="section skills">
+      <div class="section-inner">
+        <h2 class="section-title">
+          <span class="section-tag">02</span>
+          Skills
+        </h2>
+        <div class="skills-categories">
+          <div class="skill-category">
+            <h3 class="skill-category-title">Programming</h3>
+            <ul class="skill-tags">
+              <li><span>Java</span></li>
+              <li><span>Python</span></li>
+              <li><span>SQL</span></li>
+              <li><span>HTML, CSS, JavaScript</span></li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">Machine Learning & Data</h3>
+            <ul class="skill-tags">
+              <li><span>TensorFlow</span></li>
+              <li><span>Pandas</span></li>
+              <li><span>Power BI</span></li>
+              <li><span>Data analysis & dashboards</span></li>
+            </ul>
+          </div>
+          <div class="skill-category">
+            <h3 class="skill-category-title">Tools & Platforms</h3>
+            <ul class="skill-tags">
+              <li><span>Git / GitHub</span></li>
+              <li><span>Docker</span></li>
+              <li><span>Version control</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects: Cards with expand for details -->
+    <section id="projects" class="section projects">
+      <div class="section-inner">
+        <h2 class="section-title">
+          <span class="section-tag">03</span>
+          Projects
+        </h2>
+        <div class="projects-grid">
+          <article class="project-card" data-project="1">
+            <div class="project-card-header">
+              <h3>10-Minute Delivery Ban Impact Analysis</h3>
+              <span class="project-pill">Data & Policy</span>
+            </div>
+            <p class="project-summary">Analysis of the impact of India's 10-minute quick-commerce delivery ban on business and consumer behavior.</p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Power BI</li>
+            </ul>
+            <button type="button" class="project-expand" aria-expanded="false" data-project="1">View details</button>
+          </article>
+          <article class="project-card" data-project="2">
+            <div class="project-card-header">
+              <h3>AI Voice Note Summarizer</h3>
+              <span class="project-pill">AI / ML</span>
+            </div>
+            <p class="project-summary">AI-powered summarization of voice notes using NLP—focused on real-world usability and automation.</p>
+            <ul class="project-tech">
+              <li>Python</li>
+              <li>NLP</li>
+              <li>AI / ML</li>
+            </ul>
+            <button type="button" class="project-expand" aria-expanded="false" data-project="2">View details</button>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project detail modals (expand content) -->
+    <div class="modal-overlay" id="modal-overlay" aria-hidden="true">
+      <div class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <button type="button" class="modal-close" id="modal-close" aria-label="Close modal">&times;</button>
+        <div class="modal-body" id="modal-body">
+          <h2 id="modal-title" class="modal-title"></h2>
+          <div id="modal-content"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- DSA / Problem Solving: 200+ LeetCode, Java, algorithmic thinking -->
+    <section id="dsa" class="section dsa">
+      <div class="section-inner">
+        <h2 class="section-title">
+          <span class="section-tag">04</span>
+          Problem Solving & DSA
+        </h2>
+        <div class="dsa-content">
+          <div class="dsa-stats">
+            <div class="dsa-stat">
+              <span class="dsa-number" data-count="200">0</span>
+              <span class="dsa-suffix">+</span>
+              <p>LeetCode problems solved</p>
+            </div>
+            <div class="dsa-stat">
+              <span class="dsa-lang">Java</span>
+              <p>Primary language for DSA</p>
+            </div>
+          </div>
+          <p class="dsa-text">
+            Strong foundation in data structures and algorithms with consistent practice. I use Java for most solutions, focusing on clean code, time/space complexity, and patterns that scale to real engineering problems.
+          </p>
+          <p class="dsa-text">
+            This practice sharpens algorithmic thinking and translates directly into designing efficient ML pipelines and data-heavy systems.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact: Form + social links -->
+    <section id="contact" class="section contact">
+      <div class="section-inner">
+        <h2 class="section-title">
+          <span class="section-tag">05</span>
+          Contact
+        </h2>
+        <div class="contact-wrap">
+          <form class="contact-form" id="contact-form" novalidate>
+            <label for="contact-name">Name</label>
+            <input type="text" id="contact-name" name="name" placeholder="Your name" required autocomplete="name">
+            <label for="contact-email">Email</label>
+            <input type="email" id="contact-email" name="email" placeholder="your@email.com" required autocomplete="email">
+            <label for="contact-message">Message</label>
+            <textarea id="contact-message" name="message" placeholder="Your message..." rows="4" required minlength="10" maxlength="2000"></textarea>
+            <button type="submit" class="btn btn-primary">Send message</button>
+          </form>
+          <div class="contact-feedback" id="contact-feedback" aria-live="polite"></div>
+          <div class="contact-links">
+            <a href="https://github.com/Rajatrai8188" target="_blank" rel="noopener noreferrer" class="contact-link">GitHub</a>
+            <a href="https://linkedin.com/in/rajatrai8188" target="_blank" rel="noopener noreferrer" class="contact-link">LinkedIn</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Rajat Rai · B.Tech, KIET Group of Institutions · Aspiring Machine Learning Engineer</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
